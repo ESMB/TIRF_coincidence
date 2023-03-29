@@ -10,13 +10,15 @@ Created on Mon Aug  9 12:57:38 2021
 from skimage.io import imread
 import os
 import pandas as pd
-from picasso import render
 import matplotlib.pyplot as plt
 import numpy as np
 from PIL import Image
-from sklearn.cluster import DBSCAN
 from skimage import filters,measure
 from skimage.filters import threshold_local
+
+
+beads_image_path=r'/Users/Mathew/Documents/Current analysis/DNA PAINT STAPull/RS_STAPull_SR_Tetraspeck_posXY4_channels_t0_posZ0.tif'
+
 
 # Root path - where to save
 
